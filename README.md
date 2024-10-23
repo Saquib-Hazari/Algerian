@@ -7,10 +7,9 @@ This project involves an analysis of forest data from Algeria, with predictions 
 ## Key Features
 
 - **Data Analysis**: The project performs exploratory data analysis (EDA) on Algerian forest data, uncovering important patterns and trends related to the forest ecosystem.
-- **Machine Learning Predictions**: Several machine learning models have been employed to predict outcomes such as forest growth, degradation, and other ecological variables.
+- **Machine Learning Predictions**: In this model of regression the algorithms used are Linear Regression, lasso, ridge, and for cross validation i have used lassoCV, ridgeCV.
 - **Flask Application**: A lightweight Flask app serves as the front end for the project, enabling users to view analysis results and predictions. The app is hosted locally and interacts with the machine learning models and the dataset.
 - **Visualization**: The app includes data visualizations (e.g., charts, graphs) to provide a clear understanding of the forest data.
-- **Interactive UI**: Users can interact with the application to explore different features of the data and predictions.
 
 ## Running the Application
 
@@ -19,3 +18,15 @@ To run the application locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone <your-repo-url>
+   ```
+2. **Use the commande following**:
+
+   ```cmd
+   python3 app.py
+
+   ```
+
+3. **Open the Browser by the local host: 5000**
+   ```brower
+   127.0.0.0.0: 5000/prediction
+   ```
