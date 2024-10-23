@@ -1,4 +1,4 @@
-# Algerian Forest Data Analysis and Predictions
+# 🌳 Algerian Forest Data Analysis and Predictions
 
 ## Project Overview
 
